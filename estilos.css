@@ -1,3 +1,45 @@
 body{
-    background-color: brown;
+    background-color: rgb(97, 176, 197);
 }
+
+.titulo{
+    text-align: center;
+font-family: arial, sans-serif;
+font-size: 50px;
+}
+
+.introduccion{
+     text-align: center;
+     font-size: 25px;
+     background-color: rgba(225, 237, 248, 0.986);
+     border-radius: 15px;
+}
+
+.subtitulo{
+    text-align: center;
+font-family: Arial, sans-serif;
+font-size: 30px;
+}
+
+.contenedor{
+    display: flex;
+    gap: 20px;
+}
+.contenedor p{
+    flex: 1;
+    background-color: rgba(225, 237, 248, 0.986);
+    padding: 20px;
+    border-radius: 15px;
+    border-color: bisque, solid 20px;
+}
+.contenedor-imagenes{
+    display: flex;
+    gap: 20px;
+}
+.contenedor-imagenes img{
+    flex: 1;
+    background-color: beige;
+    padding: 20px;
+    border-radius: 15px;
+}
+
